@@ -1,0 +1,346 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+button {
+  color: inherit;
+}
+button, [role="button"] {
+  cursor: pointer;
+}
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 1em;
+}
+img,
+svg {
+  display: block;
+}
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.transition-colors {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.my-6 {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.my-4 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.py-8 {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.bg-\[\#86efac\] {
+  background-color: #86efac;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.py-6 {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.py-1 {
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+}
+.border-gray-500 {
+  border-color: #6b7280;
+}
+.bg-white {
+  background-color: #fff;
+}
+.flex {
+  display: flex;
+}
+.gap-8 {
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.max-w-screen-md {
+  max-width: 768px;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.border-2 {
+  border-width: 2px;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.hover\:bg-gray-200:hover {
+  background-color: #e5e7eb;
+}
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Estilos para los componentes de la practica2 */
+/* Componente User */
+
+.fondoUser{
+  background-color:rgb(19, 18, 18);
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 125px;
+}
+
+.userContainer{
+  background-color: rgb(188, 185, 185);
+  border-radius: 20px;
+  width: 400px;
+  height: 300px;
+}
+
+.userName{
+  background-color:rgb(188, 185, 185);
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align:center; 
+  line-height: 175px; 
+  margin: 10px;
+  width: 380px;
+  height: 100px;
+}
+.userLinea{
+  height: 3px;
+  width: 100%;
+  background-color: black;
+}
+
+.userEmail{
+  background-color:rgb(188, 185, 185);
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align:left;
+  margin: 10px;
+}
+
+.userSex{
+  background-color:rgb(188, 185, 185);
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px;
+}
+
+.userAddress{
+  background-color:rgb(188, 185, 185);
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px;
+}
+
+/* Componente City */
+
+.fondoCity{
+  background-color:rgb(19, 18, 18);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  margin-top: 125px;
+}
+
+.cityForm{
+  color: aqua;
+}
+
+.cityInput{
+  border-color: rebeccapurple;
+}
+
+.cityButton{
+  background-color: green;
+  border-color: aquamarine;
+}
+
+.cityContainer{
+  background-color: rgb(188, 185, 185);
+  border-radius: 20px;
+  width: 400px;
+  height: 350px;
+  margin-top: 50px;
+}
+
+.cityName{
+  background-color:rgb(188, 185, 185);
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align:center;
+  line-height: 175px; 
+  margin: 10px;
+  width: 380px;
+  height: 100px;
+}
+
+.cityLinea{
+  height: 3px;
+  width: 100%;
+  background-color: black;
+}
+
+.cityLatitude{
+  background-color:rgb(188, 185, 185);
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px;
+}
+
+.cityLogitude{
+  background-color:rgb(188, 185, 185);
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px;
+}
+
+.cityCountry{
+  background-color:rgb(188, 185, 185);
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px;
+}
+
+.cityPopulation{
+  background-color:rgb(188, 185, 185);
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px;
+}
+
+.cityCapital{
+  background-color:rgb(188, 185, 185);
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px;
+}
+
+/* Componente Dog */
+
+.fondoDog{
+  background-color:rgb(19, 18, 18);
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column;
+  margin-top: 125px;
+}
+
+.dogForm{
+  color: blueviolet;
+}
+
+.dogInput{
+  margin: 3px;
+  border-radius: 30px;
+}
+
+.dogButton{
+  background-color:lightblue;
+  border-color: gray;
+  margin: 4px;
+}
+
+.dogContainer{
+  background-color: rgb(246, 248, 249);
+  margin-top:20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.dogImgCon{
+  background-color: rgb(93, 93, 91);
+  height: 400px;
+  width: 300px;
+  overflow: hidden;
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.img-dog{
+  height: 100%;
+  width: 100%;
+}
+
+.dogLisCon{
+  background-color: rgb(246, 248, 249);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dogLis{
+  margin-left: -20px;
+}
